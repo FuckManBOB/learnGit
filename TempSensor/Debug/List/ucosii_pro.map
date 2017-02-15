@@ -1,0 +1,1220 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V5.3.2.26                                          #
+#                                                                              #
+#           Link time     =  21/May/2014  18:03:46                             #
+#           Target CPU    =  MSP430                                            #
+#           List file     =  "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            List\ucosii_pro.map"                              #
+#           Output file 1 =  "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Exe\ucosii_pro.d43"                               #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.6                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\app.r43"                                      #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\g_var_def.r43"                                #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_battery.r43"                              #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_board.r43"                                #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_ds18b20.r43"                              #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_flash.r43"                                #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_isr.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_lcd.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_rf.r43"                                   #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\hal_time.r43"                                 #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_core.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_cpu_a.r43"                                 #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_cpu_c.r43"                                 #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_flag.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_mbox.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_mem.r43"                                   #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_mutex.r43"                                 #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_q.r43"                                     #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_sem.r43"                                   #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_task.r43"                                  #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Obj\os_time.r43"                                  #
+#                            -o                                                #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            Exe\ucosii_pro.d43"                               #
+#                            -l                                                #
+#                            "C:\Documents and Settings\Administrator\桌面\MSP #
+#                            430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\ #
+#                            List\ucosii_pro.map"                              #
+#                            -xeso                                             #
+#                            "-ID:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 6.4 Evaluation\430\LIB\"                        #
+#                            -f                                                #
+#                            "D:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.4 Evaluation\430\CONFIG\lnk430F1611.xcl"        #
+#                            (-cmsp430 -QCODE_I=CODE_ID                        #
+#                            -Z(DATA)DATA16_I,DATA16_Z,DATA16_N,TLS16_I,DATA16 #
+#                            _HEAP+_DATA16_HEAP_SIZE=1100-38FF                 #
+#                            -Z(DATA)CODE_I -Z(DATA)CSTACK+_STACK_SIZE#        #
+#                            -Z(CONST)INFO=1000-10FF                           #
+#                            -Z(CONST)INFOA=1080-10FF                          #
+#                            -Z(CONST)INFOB=1000-107F                          #
+#                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
+#                            KSUM=4000-FFDF                                    #
+#                            -Z(CODE)CSTART,ISR_CODE,CODE_ID=4000-FFDF         #
+#                            -P(CODE)CODE=4000-FFDF -Z(CODE)INTVEC=FFE0-FFFF   #
+#                            -Z(CODE)RESET=FFFE-FFFF) -f                       #
+#                            "D:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.4 Evaluation\430\config\multiplier.xcl"         #
+#                            (-e?Mul8Hw=?Mul8 -e?Mul16Hw=?Mul16                #
+#                            -e?Mul16to32uHw=?Mul16to32u                       #
+#                            -e?Mul16to32sHw=?Mul16to32s -e?Mul32Hw=?Mul32     #
+#                            -e_Mul64iHw=_Mul64i                               #
+#                            -e_Mul32u32uto64iHw=_Mul32u32uto64i               #
+#                            -e?Mul32fHw=_Mul32f -e_Mul64fHwPtr=_Mul64fPtr)    #
+#                            -D_STACK_SIZE=50 -rt                              #
+#                            "D:\Program Files\IAR Systems\Embedded Workbench  #
+#                            6.4 Evaluation\430\LIB\DLIB\dl430fn.r43"          #
+#                            -D_DATA16_HEAP_SIZE=50 -s __program_start         #
+#                            -D_DATA20_HEAP_SIZE=50                            #
+#                                                                              #
+#                           Copyright (C) 1987-2012 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at :           4162  Relocatable, from module : ?cstart
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __Heap_Handler             = Basic
+  __SystemLibrary            = DLib
+  __core                     = 430
+  __dlib_file_descriptor     = 0
+  __dlib_full_locale_support = 0
+  __double_size              = 32
+  __pic                      = no
+  __reg_r4                   = free
+  __reg_r5                   = free
+  __rt_version               = 3
+
+                ****************************************
+                *                                      *
+                *    AUTOMATIC SYMBOL REDIRECTIONS     *
+                *                                      *
+                ****************************************
+
+       All references to: _Printf
+         were redirected to: _PrintfTiny
+
+                ****************************************
+                *                                      *
+                *              ENTRY LIST              *
+                *                                      *
+                ****************************************
+
+Module  Entry                         Address
+------  -----                         -------
+?FILLER_BYTES
+?ABS_ENTRY_MOD
+        _DATA20_HEAP_SIZE              0050
+        _DATA16_HEAP_SIZE              0050
+        _STACK_SIZE                    0050
+app ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\app.r43 )
+        WDTCTL                         0120
+        TemperatureAA                  149A
+        FramMbox                       149E
+        ParameterMbox                  14A0
+        WDAMbox                        14A2
+        main                           5CDE
+        BasicParameterCheck            4DB4
+        SnCheck                        5A4A
+        FramHandle                     4802
+        TaskSYSStk                     114C
+        TaskLCDStk                     118C
+        TaskFRAMStk                    11CC
+        TaskTEMPStk                    120C
+        TaskPARStk                     124C
+        TaskSSDStk                     12CC
+        TaskWDAStk                     13DA
+        TaskRVSStk                     145A
+        TaskSYSTEM                     5D74
+        AppTaskCreate                  5170
+        TaskLCD                        5834
+        TaskLCD::res                   14A4
+        TaskFRAM                       5982
+        TaskTEMP                       594E
+        TaskPARAMETER                  57B6
+        TaskSSD                        55C0
+        TaskWDA                        54D8
+        TaskRVS                        5EF4
+        FramHandle::CNT                14A8
+g_var_def ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\g_var_def.r43 )
+        RfBuf                          1F9E
+        RfIndex                        14AC
+        SubFram                        1100
+        StdFram                        111A
+hal_battery ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_battery.r43 )
+        P5OUT                          0031
+        P5DIR                          0032
+        P6SEL                          0037
+        ADC12CTL0                      01A0
+        ADC12CTL1                      01A2
+        ADC12IFG                       01A4
+        ADC12MEM0                      0140
+        ADC12MCTL0                     0080
+hal_board ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_board.r43 )
+        IE1                            0000
+        IFG1                           0002
+        ME1                            0004
+        IE2                            0001
+        ME2                            0005
+        P3DIR                          001A
+        P3SEL                          001B
+        U0CTL                          0070
+        U0TCTL                         0071
+        U0BR0                          0074
+        U0BR1                          0075
+        U1CTL                          0078
+        U1TCTL                         0079
+        U1BR0                          007C
+        U1BR1                          007D
+        U1TXBUF                        007F
+        _A_U0RXBUF                     0076
+        TACTL                          0160
+        TACCTL2                        0166
+        TACCR2                         0176
+        DCOCTL                         0056
+        BCSCTL1                        0057
+        BCSCTL2                        0058
+        msp430_init_dco                50F6
+        UartRf_Init                    5488
+        TMR_TickInit                   5EC4
+        BSP_Init                       5E84
+        I2CDRB                         0076
+        I2CDRW                         0076
+        U0RXBUF                        0076
+        U0TXBUF                        0077
+hal_ds18b20 ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_ds18b20.r43 )
+        P1IN                           0020
+        P1OUT                          0021
+        P1DIR                          0022
+        Temperature                    14AE
+        NagetiveTemp                   14B0
+        PositiveTemp                   14B4
+        TempFlag                       2098
+        DS18B20_Init                   5870
+        DS18B20_ReadBit                5C2C
+        DS18B20_WriteBit               5A7A
+        DS18B20_ReadByte               59E8
+        DS18B20_WriteByte              5C9E
+        DS18B20_Convert                5E16
+        DS18B20_ReadTemp               4BBA
+        TemperatureSample              5C04
+        DS18B20_Init::result           2099
+        DS18B20_ReadBit::result        209A
+        DS18B20_ReadByte::i            209B
+        DS18B20_ReadByte::result       209C
+        DS18B20_WriteByte::i           209D
+        DS18B20_ReadTemp::tempH        209E
+        DS18B20_ReadTemp::tempL        209F
+        TemperatureSample::Tempature   14B8
+hal_flash ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_flash.r43 )
+        FCTL1                          0128
+        FCTL3                          012C
+        FlashWrite                     5384
+hal_isr ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_isr.r43 )
+        U1RXBUF                        007E
+        FramDownLoadMboxReady          1143
+        ParameterMboxReady             1144
+        WDAMboxReady                   1145
+        usart1_rx                      430A
+        usart1_tx                      58E2
+        usart1_tx::??INTVEC 4          FFE4
+        usart1_rx::??INTVEC 6          FFE6
+        usart1_rx::RfTag               20A0
+        usart1_rx::Addr_SN             20A1
+        usart1_rx::Addr_SN_Temp        1146
+        usart1_tx::SendIndex           14BC
+hal_lcd ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_lcd.r43 )
+        P4OUT                          001D
+        P4DIR                          001E
+        number_buffer                  14C0
+        LcdIo_Init                     5EB6
+        WRB_Clock                      5CBE
+        CMD_Mode                       5D3A
+        Write_Mode                     5CFE
+        Write_CMD                      5C7A
+        Write_Addr                     5B86
+        Test_LCD_Reset                 5D90
+        Lcd_Number_data                5438
+        LCD_Init                       5D1C
+        SendLcdCmd                     5E2A
+        LcdClr_Number                  5DAA
+        LcdClr_All                     56EA
+        lcd_number                     418A
+        LcdPosNumber                   4FF4
+        LcdClean                       5ED0
+hal_rf ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_rf.r43 )
+        pDataByte                      14C6
+        RfDataLength                   14C8
+        RF_Send_Data                   5DEE
+hal_time ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\hal_time.r43 )
+        LocalTime                      14CC
+os_core ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_core.r43 )
+        OSCtxSwCtr                     14D0
+        OSEventFreeList                14D4
+        OSEventTbl                     14D6
+        OSFlagTbl                      1526
+        OSFlagFreeList                 1544
+        OSCPUUsage                     20A7
+        OSIdleCtrMax                   1546
+        OSIdleCtrRun                   154A
+        OSStatRdy                      20A8
+        OSTaskStatStk                  154E
+        OSIntNesting                   20A9
+        OSIntExitY                     20AA
+        OSLockNesting                  20AB
+        OSPrioCur                      20AC
+        OSPrioHighRdy                  20AD
+        OSRdyGrp                       20AE
+        OSRdyTbl                       20AF
+        OSRunning                      20B1
+        OSTaskCtr                      20B2
+        OSIdleCtr                      194E
+        OSTaskIdleStk                  1952
+        OSTCBCur                       1D52
+        OSTCBFreeList                  1D54
+        OSTCBHighRdy                   1D56
+        OSTCBList                      1D58
+        OSTCBPrioTbl                   1D5A
+        OSTCBTbl                       1D74
+        OSMemFreeList                  1F24
+        OSMemTbl                       1F26
+        OSQFreeList                    1F76
+        OSQTbl                         1F78
+        OSTime                         1F94
+        OSMapTbl                       400D
+        OSUnMapTbl                     4015
+        OSInit                         5B30
+        OSIntExit                      51EA
+        OSStart                        56A2
+        OSTimeTick                     52C2
+        OS_EventTaskRdy                4F6E
+        OS_EventTaskWait               5326
+        OS_EventTO                     560C
+        OS_EventWaitListInit           5DD8
+        OS_Sched                       53E0
+        OS_TaskIdle                    5E02
+        OS_TaskStat                    4D1C
+        OS_TCBInit                     4920
+        OS_InitEventList               5A1A
+        OS_InitMisc                    57F6
+        OS_InitRdyList                 5BDA
+        OS_InitTaskIdle                5BB0
+        OS_InitTaskStat                5B04
+        OS_InitTCBList                 5730
+os_cpu_a ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_cpu_a.r43 )
+        OSCtxSw                        4710
+        OSCPURestoreSR                 47FE
+        OSCPUSaveSR                    47FA
+        OSIntCtxSw                     4762
+        OSStartHighRdy                 46E4
+        WDT_ISR                        4792
+        WDT_ISR_1                      47C0
+        WDT_ISR_2                      47E0
+        WDT_VEC                        FFF4
+os_cpu_c ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_cpu_c.r43 )
+        OSISRStkPtr                    1F98
+        OSInitHookBegin                5EFE
+        OSInitHookEnd                  5EFC
+        OSTaskCreateHook               5EFA
+        OSTaskIdleHook                 5F00
+        OSTaskStatHook                 5F04
+        OSTaskStkInit                  4EDC
+        OSTaskSwHook                   5F02
+        OSTCBInitHook                  5EF6
+        OSTimeTickHook                 5AD6
+        OSTimeTickHook::RTC_Tick       1F9A
+os_flag ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_flag.r43 )
+        OS_FlagInit                    5AA8
+os_mbox ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_mbox.r43 )
+        OSMboxCreate                   5774
+        OSMboxPend                     4C72
+        OSMboxPost                     5526
+os_mem ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_mem.r43 )
+        OS_MemInit                     525A
+os_mutex ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_mutex.r43 )
+os_q ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_q.r43 )
+        OS_QInit                       5B5C
+os_sem ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_sem.r43 )
+os_task ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_task.r43 )
+        OSTaskCreate                   5076
+        OSTaskCreateExt                4AF6
+os_time ( C:\Documents and Settings\Administrator\桌面\MSP430F1611_UCOSII_IAR5.3_TEMPLATE\TempSensor\Debug\Obj\os_time.r43 )
+        OSTimeDly                      5658
+        OSTimeDlyHMSM                  4A0E
+        OSTimeGet                      5E96
+?Mul32fHw ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?Mul32fHw                      4482
+?abort ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?__dbg_break ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        __DebugBreak                   5EF8
+?__dwrite ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?__exit ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        __exit                         5DC2
+?__write ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?abs ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?atoi ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?_exit ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        _exit                          5EEC
+?cppinit ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?cstart ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        __program_start                4162
+        ?cstart_begin                  4162
+        ?cstart_init_zero              4166
+        ?cstart_init_copy              4172
+        ?cstart_call_main              4182
+        ?cstart_end                    418A
+lowinit ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?reset_vector ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?reset_vector                  FFFE
+?Epilogue ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?Epilogue3                     5E6A
+        ?Epilogue4                     5E68
+        ?Epilogue5                     5E66
+        ?Epilogue6                     5E64
+        ?Epilogue7                     5E62
+        ?Epilogue8                     5E60
+?errno ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?exit ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        exit                           5EE8
+?Cast32f32i ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        _Cast32sto32f                  4E4A
+        _Cast32uto32f                  4E5E
+_Cast32fto32u ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        _Cast32fto32u                  5EDC
+_Cast32fto32s ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        _Cast32fto32s                  59B6
+?FLT_Extract ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?FLT_Extract                   5574
+_Div32f ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        _Div32f                        45B4
+?malloc ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?DivMod816u ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?DivMod8u                      5D58
+        ?DivMod16u                     5D5C
+?DivMod816s ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?DivMod8s                      591A
+        ?DivMod16s                     591E
+?DivMod32u ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?DivMod32u                     58AA
+?ShiftLeft32_n ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?ShiftRight32u_n ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?memchr ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?memcpy ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        memcpy                         5E72
+?memmove ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?CopyMemoryBytes ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        ?CopyMemoryBytes               5EA6
+?ClearMemoryBytes ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?memset ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        memset                         5E4E
+?memzero ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        __data16_memzero               5E3C
+        __data16_memcpy                5EF0
+?Mul32Hw ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?printf ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?setjmp ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?longjmp ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?strcmp ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?strlen ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?strncmp ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+        strncmp                        5C54
+?strrchr ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?strstr ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?SwitchKey8 ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xcloseall ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xgetmemchunk ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xprintftiny ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xprout ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xstoul ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xxmemxfree ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+?xxmemxmalloc ( D:\Program Files\IAR Systems\Embedded Workbench 6.4 Evaluation\430\LIB\DLIB\dl430fn.r43 )
+
+
+                ****************************************
+                *                                      *
+                *              CALL GRAPH              *
+                *                                      *
+                ****************************************
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  00000000
+  03      OS_Sched
+          | Stack used (prev) :  00000000
+          | + function block  :  00000002
+  03      OS_EventTaskRdy
+          | Stack used (prev) :  00000000
+          | + function block  :  0000000C
+  02    OSMboxPost
+        | Stack used (prev) :  0000000C
+        | + function block  :  00000002
+  01  usart1_rx
+      | Stack used (prev) :  0000000E
+      | + function block  :  0000000C
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  0000001A
+
+
+  ->Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+                             CSTACK
+    | Stack used (prev) :  0000001A
+  01  usart1_tx
+      | Stack used (prev) :  0000001A
+      | + function block  :  00000006
+  <-Sub-tree of type: Interrupt function tree that does not make
+                    : indirect calls
+    | Stack used          :  00000020
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  04        OS_Sched
+            | Stack used (prev) :  00000000
+            | + function block  :  00000002
+            |  Already listed
+  03      OSTimeDly
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  03      OSTimeDly
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+          |  Already listed
+  03      OSTimeDly
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+          |  Already listed
+  02    OSTimeDlyHMSM
+        | Stack used (prev) :  00000020
+        | + function block  :  0000000A
+  03      TMR_TickInit
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  03      UartRf_Init
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  03      msp430_init_dco
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  02    BSP_Init
+        | Stack used (prev) :  00000022
+        | + function block  :  00000002
+  04        OSTaskStkInit
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+  05          OSTCBInitHook
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+  05          OSTaskCreateHook
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+  04        OS_TCBInit
+            | Stack used (prev) :  00000022
+            | + function block  :  0000000C
+  04        OS_Sched
+            | Stack used (prev) :  00000000
+            | + function block  :  00000002
+            |  Already listed
+  03      OSTaskCreate
+          | Stack used (prev) :  0000002E
+          | + function block  :  0000000E
+  02    AppTaskCreate
+        | Stack used (prev) :  0000003C
+        | + function block  :  00000002
+  01  TaskSYSTEM
+      | Stack used (prev) :  0000003E
+      | + function block  :  00000004
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000042
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSTimeGet
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  02    OSTimeDlyHMSM
+        | Stack used (prev) :  00000020
+        | + function block  :  0000000A
+        |  Already listed
+  04        Test_LCD_Reset
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+  05          WRB_Clock
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+  04        Write_Addr
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+  05          WRB_Clock
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  05          WRB_Clock
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  05          WRB_Clock
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  04        Write_Mode
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+  04        WRB_Clock
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+            |  Already listed
+  03      LcdClr_All
+          | Stack used (prev) :  00000024
+          | + function block  :  00000002
+  05          Test_LCD_Reset
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  05          Write_Addr
+              | Stack used (prev) :  00000022
+              | + function block  :  00000002
+              |  Already listed
+  05          Write_Mode
+              | Stack used (prev) :  00000022
+              | + function block  :  00000002
+              |  Already listed
+  05          WRB_Clock
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  04        Lcd_Number_data
+            | Stack used (prev) :  00000024
+            | + function block  :  00000002
+  03      LcdClr_Number
+          | Stack used (prev) :  00000026
+          | + function block  :  00000002
+  05          Test_LCD_Reset
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  06            WRB_Clock
+                | Stack used (prev) :  00000020
+                | + function block  :  00000002
+                |  Already listed
+  05          Write_CMD
+              | Stack used (prev) :  00000022
+              | + function block  :  00000002
+  06            WRB_Clock
+                | Stack used (prev) :  00000020
+                | + function block  :  00000002
+                |  Already listed
+  06            WRB_Clock
+                | Stack used (prev) :  00000020
+                | + function block  :  00000002
+                |  Already listed
+  06            WRB_Clock
+                | Stack used (prev) :  00000020
+                | + function block  :  00000002
+                |  Already listed
+  05          CMD_Mode
+              | Stack used (prev) :  00000022
+              | + function block  :  00000002
+  04        SendLcdCmd
+            | Stack used (prev) :  00000024
+            | + function block  :  00000002
+  04        SendLcdCmd
+            | Stack used (prev) :  00000024
+            | + function block  :  00000002
+            |  Already listed
+  04        SendLcdCmd
+            | Stack used (prev) :  00000024
+            | + function block  :  00000002
+            |  Already listed
+  04        Test_LCD_Reset
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+            |  Already listed
+  04        LcdIo_Init
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+  03      LCD_Init
+          | Stack used (prev) :  00000026
+          | + function block  :  00000002
+  02    LcdClean
+        | Stack used (prev) :  00000028
+        | + function block  :  00000002
+  03      lcd_number
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  03      lcd_number
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+          |  Already listed
+  03      lcd_number
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+          |  Already listed
+  03      lcd_number
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+          |  Already listed
+  03      LcdClr_Number
+          | Stack used (prev) :  00000026
+          | + function block  :  00000002
+          |  Already listed
+  03      LCD_Init
+          | Stack used (prev) :  00000026
+          | + function block  :  00000002
+          |  Already listed
+  03      Lcd_Number_data
+          | Stack used (prev) :  00000024
+          | + function block  :  00000002
+          |  Already listed
+  02    LcdPosNumber
+        | Stack used (prev) :  00000028
+        | + function block  :  0000000A
+  01  TaskLCD
+      | Stack used (prev) :  00000032
+      | + function block  :  00000004
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000036
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  03      OS_Sched
+          | Stack used (prev) :  00000000
+          | + function block  :  00000002
+          |  Already listed
+  03      OS_EventTO
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  03      OS_EventTaskWait
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  02    OSMboxPend
+        | Stack used (prev) :  00000022
+        | + function block  :  00000006
+  03      OS_EventWaitListInit
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  02    OSMboxCreate
+        | Stack used (prev) :  00000022
+        | + function block  :  00000004
+  02    RF_Send_Data
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  01  TaskFRAM
+      | Stack used (prev) :  00000028
+      | + function block  :  00000006
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  0000002E
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSTimeDlyHMSM
+        | Stack used (prev) :  00000020
+        | + function block  :  0000000A
+        |  Already listed
+  05          DS18B20_WriteBit
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+  04        DS18B20_WriteByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+  04        DS18B20_WriteByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+            |  Already listed
+  05          DS18B20_ReadBit
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+  04        DS18B20_ReadByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+  04        DS18B20_ReadByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+            |  Already listed
+  04        DS18B20_Init
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+  03      DS18B20_ReadTemp
+          | Stack used (prev) :  00000024
+          | + function block  :  00000002
+  04        DS18B20_WriteByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+            |  Already listed
+  04        DS18B20_WriteByte
+            | Stack used (prev) :  00000022
+            | + function block  :  00000002
+            |  Already listed
+  04        DS18B20_Init
+            | Stack used (prev) :  00000020
+            | + function block  :  00000002
+            |  Already listed
+  03      DS18B20_Convert
+          | Stack used (prev) :  00000024
+          | + function block  :  00000002
+  02    TemperatureSample
+        | Stack used (prev) :  00000026
+        | + function block  :  00000002
+  01  TaskTEMP
+      | Stack used (prev) :  0000002A
+      | + function block  :  00000006
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000030
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSMboxPend
+        | Stack used (prev) :  00000022
+        | + function block  :  00000006
+        |  Already listed
+  02    OSMboxCreate
+        | Stack used (prev) :  00000022
+        | + function block  :  00000004
+        |  Already listed
+  02    FlashWrite
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  02    BasicParameterCheck
+        | Stack used (prev) :  00000020
+        | + function block  :  0000000E
+  01  TaskPARAMETER
+      | Stack used (prev) :  0000002E
+      | + function block  :  00000006
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000034
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSTimeDlyHMSM
+        | Stack used (prev) :  00000020
+        | + function block  :  0000000A
+        |  Already listed
+  02    RF_Send_Data
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+        |  Already listed
+  03      memcpy
+          | Stack used (prev) :  00000020
+          | + function block  :  00000002
+  02    FramHandle
+        | Stack used (prev) :  00000022
+        | + function block  :  0000000A
+  01  TaskSSD
+      | Stack used (prev) :  0000002C
+      | + function block  :  00000008
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000034
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSMboxPend
+        | Stack used (prev) :  00000022
+        | + function block  :  00000006
+        |  Already listed
+  02    OSMboxCreate
+        | Stack used (prev) :  00000022
+        | + function block  :  00000004
+        |  Already listed
+  02    RF_Send_Data
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+        |  Already listed
+  02    FlashWrite
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+        |  Already listed
+  02    SnCheck
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  01  TaskWDA
+      | Stack used (prev) :  00000028
+      | + function block  :  00000006
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  0000002E
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  01  TaskRVS
+      | Stack used (prev) :  00000020
+      | + function block  :  00000002
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000022
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSTaskIdleHook
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  01  OS_TaskIdle
+      | Stack used (prev) :  00000022
+      | + function block  :  00000002
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000024
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  02    OSTimeDly
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+        |  Already listed
+  02    OSTaskStatHook
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+  01  OS_TaskStat
+      | Stack used (prev) :  00000022
+      | + function block  :  00000008
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  0000002A
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  01  memset
+      | Stack used (prev) :  00000020
+      | + function block  :  00000002
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000022
+
+
+  ->Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+                             CSTACK
+    | Stack used (prev) :  00000020
+  01  strncmp
+      | Stack used (prev) :  00000020
+      | + function block  :  00000002
+  <-Sub-tree of type: Indirectly called function tree that does not make
+                    : indirect calls (Is not an interrupt and is not flagged
+                    : as not overlayable)
+    | Stack used          :  00000022
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  00000042
+  02    OSTaskCreate
+        | Stack used (prev) :  0000002E
+        | + function block  :  0000000E
+        |  Already listed
+  02    OSStart
+        | Stack used (prev) :  00000042
+        | + function block  :  00000002
+  03      OS_QInit
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OS_MemInit
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OS_FlagInit
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OSInitHookEnd
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OSInitHookBegin
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OS_InitTCBList
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  05          memset
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  05          OSTaskStkInit
+              | Stack used (prev) :  00000020
+              | + function block  :  00000002
+              |  Already listed
+  05          OS_TCBInit
+              | Stack used (prev) :  00000022
+              | + function block  :  0000000C
+              |  Already listed
+  05          OS_Sched
+              | Stack used (prev) :  00000000
+              | + function block  :  00000002
+              |  Already listed
+  04        OSTaskCreateExt
+            | Stack used (prev) :  00000042
+            | + function block  :  0000001E
+  03      OS_InitTaskStat
+          | Stack used (prev) :  00000060
+          | + function block  :  0000000E
+  04        OSTaskCreateExt
+            | Stack used (prev) :  00000042
+            | + function block  :  0000001E
+            |  Already listed
+  03      OS_InitTaskIdle
+          | Stack used (prev) :  00000060
+          | + function block  :  0000000E
+  03      OS_InitRdyList
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OS_InitMisc
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  03      OS_InitEventList
+          | Stack used (prev) :  00000042
+          | + function block  :  00000002
+  02    OSInit
+        | Stack used (prev) :  0000006E
+        | + function block  :  00000002
+  01  main
+      | Stack used (prev) :  00000070
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  00000072
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  00000072
+  01  OSIntExit
+      | Stack used (prev) :  00000072
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  00000074
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  00000074
+  02    OSTimeTickHook
+        | Stack used (prev) :  00000074
+        | + function block  :  00000002
+  01  OSTimeTick
+      | Stack used (prev) :  00000076
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  00000078
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  00000078
+  01  OSTaskSwHook
+      | Stack used (prev) :  00000078
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  0000007A
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  0000007A
+  01  exit
+      | Stack used (prev) :  0000007A
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  0000007C
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  0000007C
+  01  __data16_memzero
+      | Stack used (prev) :  0000007C
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  0000007E
+
+
+  ->Sub-tree of type: Function tree
+                             CSTACK
+    | Stack used (prev) :  0000007E
+  02    memcpy
+        | Stack used (prev) :  00000020
+        | + function block  :  00000002
+        |  Already listed
+  01  __data16_memcpy
+      | Stack used (prev) :  0000007E
+      | + function block  :  00000002
+  <-Sub-tree of type: Function tree
+    | Stack used          :  00000080
+
+
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+DATA16_AN                              0000 - 0002               3   rel    0
+                                       0004 - 0005               2 
+                                       001A - 001B               2 
+                                       001D - 001E               2 
+                                       0020 - 0022               3 
+                                       0031 - 0032               2 
+                                       0037 - 0037               1 
+                                       0056 - 0058               3 
+                                       0070 - 0071               2 
+                                       0074 - 0079               6 
+                                       007C - 0080               5 
+                                       0120 - 0121               2 
+                                       0128 - 0129               2 
+                                       012C - 012D               2 
+                                       0140 - 0141               2 
+                                       0160 - 0161               2 
+                                       0166 - 0167               2 
+                                       0176 - 0177               2 
+                                       01A0 - 01A5               6 
+DATA16_I                               1100 - 114B              4C   rel    1
+DATA16_Z                               114C - 20B2             F67   rel    1
+CSTACK                                 38B0 - 38FF              50   rel    1
+DATA16_C                               4000 - 4114             115   rel    0
+DATA16_ID                              4116 - 4161              4C   rel    1
+CSTART                                 4162 - 4189              28   rel    1
+<CODE> 1                               418A - 5F05            1D7C   rel    1
+INTVEC                                 FFE0 - FFF5              16   com    1
+RESET                                  FFFE - FFFF               2   rel    1
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 7 612 bytes of CODE  memory
+ 4 099 bytes of DATA  memory (+ 51 absolute )
+   353 bytes of CONST memory
+
+Errors: none
+Warnings: none
+

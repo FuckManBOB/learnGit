@@ -1,0 +1,121 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=2131509654
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[Breakpoints2]
+Count=0
+[Interrupts]
+Enabled=1
+[MemoryMap]
+Enabled=0
+Base=0
+UseAuto=0
+TypeViolation=1
+UnspecRange=1
+ActionState=1
+[Trace1]
+Enabled=0
+ShowSource=1
+[State Storage]
+Control Register=0
+[Sequencer]
+Control Register=0
+NextState0=0
+NextState1=0
+[Action Register]
+Break=0
+State Storage=0
+[BreakpointUsageDialog]
+Placement=_ 294 230 731 508
+[struct_types]
+Fmt0=DATA_FORMAT-CycleNumber	3	0
+Fmt1=DATA_FORMAT-PackageCnt	3	0
+Fmt2=STD_FRAM-EndSymbol	4	0
+Fmt3=_calendar_obj-hour	3	0
+Fmt4=_calendar_obj-min	3	0
+[array_types]
+Fmt0=char[250]	4	0
+[watch_formats]
+Fmt0={W}0:BatteryValue	3	0
+Fmt1={W}0:CheckTime	4	0
+Fmt2={W}0:Day	3	0
+Fmt3={W}0:DevCnt	4	0
+Fmt4={W}0:DevId	4	0
+Fmt5={W}0:Hour	3	0
+Fmt6={W}0:Min	3	0
+Fmt7={W}0:Month	3	0
+Fmt8={W}0:Paramter_SampleTime	3	0
+Fmt9={W}0:Sec	3	0
+Fmt10={W}0:SoftWatchDogOverTime	3	0
+Fmt11={W}0:Year	4	0
+Fmt12={W}0:m	3	0
+Fmt13={W}0:ptrTemp	4	0
+Fmt14={W}0:res	4	0
+Fmt15={W}0:uCRC	1	0
+Fmt16={W}0:x	3	0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Breakpoints]
+Count=0
+[FET]
+Clock mode=14
+Extended Clock mode=-1
+Secure Password=
+Extended Clock Control Enable=1
+Advanced Extended Clock Control=0
+Emulation mode=0
+Free running=0
+Shutting Down=3
+[Memory Dump]
+Start address=
+Lenghth=
+Address info=0
+Format=0
+Dump registers=0
+PC=0
+SP=0
+SR=0
+all registers=0
+File name=
+[Aliases]
+A0=_ "D:\WorkStationByTjj\双向通信(新协议)\设备工程代码\带ucos系统\温压传感器程序新版(优化版)\温度传感器_RF9600_UcosII_SW62Hz(目前有问题)\TempSensor\Src\MSP430Ports\os_cpu_a.asm" ""
+Count=1
+SuppressDialog=0
